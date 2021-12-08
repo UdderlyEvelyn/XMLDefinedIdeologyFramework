@@ -30,7 +30,7 @@ namespace XDIF
 					staticIdeo.colorDef = extension.colorDef ?? staticIdeo.colorDef;
 					staticIdeo.culture = extension.culture ?? staticIdeo.culture;
 					staticIdeo.description = extension.description ?? staticIdeo.description;
-					staticIdeo.Fluid = extension.fluid ?? staticIdeo.Fluid;
+					staticIdeo.Fluid = extension.Fluid ?? staticIdeo.Fluid;
 					staticIdeo.foundation = extension.foundation ?? staticIdeo.foundation;
 					staticIdeo.iconDef = extension.iconDef ?? staticIdeo.iconDef;
 					staticIdeo.id = Find.UniqueIDsManager.GetNextIdeoID();
@@ -44,7 +44,7 @@ namespace XDIF
 					staticIdeo.thingStyleCategories = extension.thingStyleCategories ?? staticIdeo.thingStyleCategories;
 					staticIdeo.usedSymbolPacks = extension.usedSymbolPacks ?? staticIdeo.usedSymbolPacks;
 					staticIdeo.usedSymbols = extension.usedSymbols ?? staticIdeo.usedSymbols;
-					staticIdeo.WorshipRoomLabel = extension.worshipRoomLabel ?? staticIdeo.WorshipRoomLabel;
+					staticIdeo.WorshipRoomLabel = extension.WorshipRoomLabel ?? staticIdeo.WorshipRoomLabel;
 					
 					if (extension.preceptsDefs != null)
 					{

@@ -16,7 +16,7 @@ namespace XDIF
 		public bool? classic;
 		public ColorDef colorDef;
 		public CultureDef culture;
-		public bool? fluid;
+		public bool? Fluid;
 		public IdeoFoundation foundation; //Is it ok that this isn't IdeoFoundationDef?
 		public IdeoIconDef iconDef;
 		public string leaderTitleFemale;
@@ -27,6 +27,6 @@ namespace XDIF
 		public List<ThingStyleCategoryWithPriority> thingStyleCategories; //Is it ok that this isn't Defs?
 		public List<string> usedSymbolPacks;
 		public List<string> usedSymbols;
-		public string worshipRoomLabel;
+		public string WorshipRoomLabel;
 	}
 }
