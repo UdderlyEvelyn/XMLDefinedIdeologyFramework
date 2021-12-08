@@ -24,6 +24,7 @@ namespace XDIF
 		public string memberName;
 		public List<MemeDef> memes;
 		public List<PreceptDef> preceptsDefs;
+		public IdeoStyleTracker style;
 		public List<ThingStyleCategoryWithPriority> thingStyleCategories; //Is it ok that this isn't Defs?
 		public List<string> usedSymbolPacks;
 		public List<string> usedSymbols;

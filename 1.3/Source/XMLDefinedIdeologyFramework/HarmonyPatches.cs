@@ -40,7 +40,7 @@ namespace XDIF
 					staticIdeo.memes = extension.memes ?? staticIdeo.memes;
 					staticIdeo.name = extension.name ?? staticIdeo.name;
 					//staticIdeo.primaryFactionColor = extension.primaryFactionColor ?? staticIdeo.primaryFactionColor; //I don't think this will work cuz Unity class.
-					//staticIdeo.style = extension.style ?? staticIdeo.style; //This one might be annoying to implement... is it relevant given the below one?
+					staticIdeo.style = extension.style ?? staticIdeo.style; //This one might be annoying to implement... is it relevant given the below one?
 					staticIdeo.thingStyleCategories = extension.thingStyleCategories ?? staticIdeo.thingStyleCategories;
 					staticIdeo.usedSymbolPacks = extension.usedSymbolPacks ?? staticIdeo.usedSymbolPacks;
 					staticIdeo.usedSymbols = extension.usedSymbols ?? staticIdeo.usedSymbols;
